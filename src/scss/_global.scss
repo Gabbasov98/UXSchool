@@ -1,0 +1,21 @@
+@import 'vars';
+html {
+    width: 100%;
+}
+
+body {
+    font-family: $font1;
+    font-weight: 400;
+    color: $black;
+    font-stretch: 109;
+    font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+    &.fixed-body {
+        overflow-y: hidden;
+    }
+}
+
+a {
+    &:hover {
+        color: $primary;
+    }
+}

@@ -1,0 +1,31 @@
+@import "../vars";
+.mbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-out .225s;
+    padding: 0;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.btn-blue {
+    background: linear-gradient(180deg, #37C9FE 0%, #0077FF 100%);
+    box-shadow: 0px 1px 1px rgba(55, 61, 67, 0.1), 0px -30px 100px rgba(255, 255, 255, 0.3), 0px 70px 90px rgba(55, 61, 67, 0.3), inset 0.5px 1px 0px rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid transparent;
+    &:hover {
+        color: #fff;
+        background: linear-gradient(180deg, #37C9FE 0%, #3392FF 100%);
+    }
+    &:active {
+        color: #fff;
+        background: linear-gradient(180deg, #37C9FE 0%, #3392FF 100%);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    @media screen and (max-width: 992px) {
+        border-radius: 12px;
+    }
+}

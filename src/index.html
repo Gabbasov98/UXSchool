@@ -1,0 +1,102 @@
+<!DOCTYPE html> @@include('components/page-blocks/_head.html',{ "lang":"ru", "title":"Главная", "description":"", "keywords":"",})
+
+<body>
+    <div class="wrapper">
+        @@include('components/page-blocks/_header.html')
+        <main class="content">
+
+            <section class='main'>
+                <video class="main__video" preload="true" autoplay loop muted>
+                    <source src="videos/Bg.mp4" type="video/mp4" />
+                 </video>
+                <div class='container'>
+                    <div class='main__inner'>
+                        <h1 class="main__title display1">
+                            <span>Профессия </span>
+                            <span>UX/UI-дизайнер</span>
+                        </h1>
+                        <div class="main__info">
+                            <ul class="main__list">
+                                <li>Простым языком и для начинающих</li>
+                                <li>Учись в своём темпе</li>
+                                <li>От 5 000 ₽ одним платёжом, или рассрочка</li>
+                            </ul>
+                            <div class="main__hint">Сделай крутой шаг в карьере и получи современную, высооплачиваемую профессию</div>
+                        </div>
+                        <button class="main__btn btn btn-blue">Записаться на курс</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class='what-learn'>
+                <div class='container'>
+                    <a class='what-learn__video' href="https://www.youtube.com/watch?v=EJWL0ZACABc" target="_blank">
+                        <img src="img/video.webp" alt="">
+                    </a>
+                    <div class="what-learn__inner">
+                        <div class="what-learn__title display2">Чему <br> вы научитесь</div>
+                        <div class="what-learn__slider">
+                            <div class='swiper-container'>
+                                <div class='swiper-wrapper'>
+                                    <div class='swiper-slide what-learn__item'>
+                                        <div class="what-learn__item-content">
+                                            <div class="what-learn__item-title display3">Проектировать интерфейсы</div>
+                                            <div class="what-learn__item-desc">От сбора требований и постановки проблемы, до реализации</div>
+                                        </div>
+                                        <div class="what-learn__item-img">
+                                            <img src="img/learn.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class='swiper-slide what-learn__item'>
+                                        <div class="what-learn__item-content">
+                                            <div class="what-learn__item-title display3">2 Проектировать интерфейсы</div>
+                                            <div class="what-learn__item-desc">От сбора требований и постановки проблемы, до реализации</div>
+                                        </div>
+                                        <div class="what-learn__item-img">
+                                            <img src="img/learn.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class='swiper-slide what-learn__item'>
+                                        <div class="what-learn__item-content">
+                                            <div class="what-learn__item-title display3">3 Проектировать интерфейсы</div>
+                                            <div class="what-learn__item-desc">От сбора требований и постановки проблемы, до реализации</div>
+                                        </div>
+                                        <div class="what-learn__item-img">
+                                            <img src="img/learn.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class='swiper-slide what-learn__item'>
+                                        <div class="what-learn__item-content">
+                                            <div class="what-learn__item-title display3">4 Проектировать интерфейсы</div>
+                                            <div class="what-learn__item-desc">От сбора требований и постановки проблемы, до реализации</div>
+                                        </div>
+                                        <div class="what-learn__item-img">
+                                            <img src="img/learn.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='swiper-pagination'></div>
+                                <div class='swiper-button-prev'>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.983 4.14201C15.5436 3.70266 14.8313 3.70266 14.392 4.14201L8.01701 10.517C7.57766 10.9563 7.57766 11.6686 8.01701 12.108L14.392 18.483C14.8313 18.9223 15.5436 18.9223 15.983 18.483C16.4223 18.0436 16.4223 17.3313 15.983 16.892L10.4035 11.3125L15.983 5.73291C16.4223 5.29356 16.4223 4.58136 15.983 4.14201Z" fill="#80859A"/>
+                                    </svg>
+                                </div>
+                                <div class='swiper-button-next'>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.017 18.4829C8.45634 18.9223 9.16866 18.9223 9.60799 18.4829L15.9829 12.108C16.4223 11.6687 16.4223 10.9563 15.9829 10.517L9.60799 4.142C9.16866 3.70267 8.45634 3.70267 8.017 4.142C7.57767 4.58134 7.57767 5.29366 8.017 5.73299L13.5965 11.3125L8.017 16.892C7.57767 17.3314 7.57767 18.0436 8.017 18.4829Z" fill="#80859A"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        @@include('components/page-blocks/_footer.html')
+    </div>
+
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>
